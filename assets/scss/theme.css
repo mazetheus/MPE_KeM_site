@@ -11687,6 +11687,7 @@ a.theme-link:hover {
 .header .logo-icon {
   height: 34px;
   width: auto;
+  padding-left: 1rem;
 }
 
 .header-shrink {
@@ -11760,6 +11761,10 @@ a.theme-link:hover {
 }
 
 /* countdown block */
+.countdown-box {
+  padding-bottom: 2rem;
+}
+
 .countdown-box span {
   display: inline-block;
   padding: 0.5rem 0;
@@ -11819,12 +11824,12 @@ a.theme-link:hover {
   font-size: 1.5rem;
 }
 
-.benefits-list li {
+.pilares-list li {
   margin-bottom: 0.5rem;
-  font-size: 1.125rem;
+  font-size: 0.8rem;
 }
 
-.benefits-list li .svg-inline--fa {
+.pilares-list li .svg-inline--fa {
   color: #5ab66e;
 }
 
@@ -11996,7 +12001,7 @@ a.theme-link:hover {
   font-size: 1.25rem;
 }
 
-/* Tickets Section */
+/* Pilares Section */
 .offers-list li {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -12018,63 +12023,59 @@ a.theme-link:hover {
   font-size: 1.125rem;
 }
 
+.pricing {
+  background: #beccd3;
+  color: #415b78;
+}
+
 .pricing .card {
-  background: #fff;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #beccd3;
+}
+
+.pricing .card-center {
+  background-image: url("/assets/images/pilares-1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 100%;
 }
 
-.pricing .heading {
-  background: #beccd3;
-  color: #fff;
-}
-
-.pricing .heading h4, .pricing .heading .h4 {
-  font-size: 1.125rem;
-}
-
-.pricing .price-figure {
-  font-size: 2rem;
-}
-
-.pricing .card-footer {
-  background: white;
-  border-top: 0;
-  padding-bottom: 2rem;
+.pricing .txt {
+  font-size: 0.8rem;
 }
 
 /* Venue */
-.venue-section .figure {
-  position: relative;
+.venue-section {
+  background: #e9f0f4;
+  color: #2b2b2b;
 }
 
-.venue-section .figure img {
-  border: 10px solid #fff;
-  max-width: 100%;
+.venue-section .card {
+  background: #e9f0f4;
+  font-size: 0.8rem;
 }
 
-.venue-section .figure.figure-1 {
-  z-index: 1;
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+.venue-section a {
+  color: #2b2b2b;
 }
 
-.venue-section .figure.figure-2 {
-  -webkit-transform: rotate(2deg);
-  transform: rotate(2deg);
-  z-index: 2;
+.venue-section .social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 2.5rem;
 }
 
-.venue-section .figure.figure-3 {
-  -webkit-transform: rotate(358deg);
-  transform: rotate(358deg);
-  z-index: 3;
-  margin-top: -2rem;
-}
-
-.venue-section .figure.figure-4 {
-  z-index: 3;
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+.venue-section .social-list a {
+  padding: 0.5rem;
 }
 
 .venue-section .grid-item {
@@ -12100,19 +12101,13 @@ a.theme-link:hover {
 
 /* footer */
 .footer {
-  color: #fff;
+  height: 2rem;
+  background: #4d78fa;
 }
 
-.footer a {
-  color: #fff;
-}
-
-.footer a:hover {
-  color: #fff;
-}
-
-.footer .social-list {
-  font-size: 1.5rem;
+.footer img {
+  height: 1rem;
+  margin: 0.5rem;
 }
 
 @media (min-width: 576px) {

@@ -15,6 +15,7 @@
 	.logo-icon {
 		height: 34px;
 		width: auto;
+		padding-left: 1rem;
 	}
 
 }
@@ -92,6 +93,7 @@
 
 /* countdown block */
 .countdown-box {
+	padding-bottom: 2rem;
 	span {
 		display: inline-block;
 		padding: 0.5rem 0;
@@ -144,10 +146,10 @@
 		font-size: 1.5rem;
 	}
 }
-.benefits-list {
+.pilares-list {
 	li {
 		margin-bottom: 0.5rem;
-		font-size: 1.125rem;
+		font-size: 0.8rem;
 		.svg-inline--fa {
 			color: $theme-color-tick;
 		}
@@ -179,6 +181,7 @@
 		background: darken($theme-bg-light, 2%);
 		border-top: none;
 	}
+
 	.social-list {
 		
 		
@@ -332,7 +335,7 @@
 	}
 }
 
-/* Tickets Section */
+/* Pilares Section */
 .offers-list {
 	li {
 		padding-top: 0.5rem;
@@ -356,63 +359,52 @@
 }
 
 .pricing {
+	background: $theme-bg-primary;
+	color: $theme-text-color-secondary;
+
 	.card {
-		background: #fff;
+		height: 100%;
+		justify-content: center;
+		background: $theme-bg-primary;
+	}
+
+	.card-center {
+		background-image: url('/assets/images/pilares-1.jpg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
 		height: 100%;
 	}
-	
-	.heading {
-		background: $theme-bg-primary;
-	    color: #fff;
 
-		h4 {
-			font-size: 1.125rem;
-		}
-	}
-
-
-	.price-figure {
-		font-size: 2rem;
-	}
-	
-	.card-footer {
-		background: white;
-		border-top: 0;
-		padding-bottom: 2rem;
+	.txt {
+		font-size: 0.8rem;
 	}
 }
 
 /* Venue */
 .venue-section {
 
-	.figure {
-		position: relative;
-		
-		img {
-			border: 10px solid #fff;
-			max-width: 100%;
-			
-		}
-		&.figure-1 {
-			z-index: 1;
-			@include scale(1.1);
-		}
-		&.figure-2 {
-			@include rotate(2);
-			z-index: 2;
-			
-			
-		}
-		&.figure-3 {
-			@include rotate(358);
-			z-index: 3;
-			margin-top: -2rem;
-		}
-		&.figure-4 {
-			z-index: 3;
-			@include scale(1.1);
+	background: #e9f0f4;
+	color: #2b2b2b;
+
+	.card {
+		background: #e9f0f4;
+		font-size: 0.8rem;
+	}
+
+	a{
+		color: #2b2b2b;
+	}
+
+	.social-list{
+		display: flex;
+		flex-direction: row;
+		font-size: 2.5rem;
+		a{
+			padding: 0.5rem;
 		}
 	}
+
 	.grid-item {
 		border: 1px solid #fff;
 		
@@ -435,15 +427,11 @@
 }
 /* footer */
 .footer {
-	color: #fff;
-	a {
-		color: #fff;
-		&:hover {
-			color: #fff;
-		}
-	}
-	.social-list {
-		font-size: 1.5rem;
+	height: 2rem;
+	background: #4d78fa;
+	img {
+		height: 1rem;
+		margin: 0.5rem;
 	}
 }
 
