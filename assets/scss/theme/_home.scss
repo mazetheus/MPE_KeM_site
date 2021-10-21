@@ -386,8 +386,19 @@
 		color: $smoky-white;
 		h3 {
 			color: $theme-color-secondary;
-			font-size: 1.2rem;
+			font-size: 2rem;
 		}
+	}
+}
+
+.form-section {
+	padding: 0 !important;
+	input {
+		border-radius: 15px;
+		margin-bottom: 1rem;
+	}
+	.btn {
+		background: $theme-color-secondary;
 	}
 }
 

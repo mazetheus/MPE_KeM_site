@@ -12056,7 +12056,20 @@ a.theme-link:hover {
 
 .pricing .txt h3, .pricing .txt .h3 {
   color: #7997a3;
-  font-size: 1.2rem;
+  font-size: 2rem;
+}
+
+.form-section {
+  padding: 0 !important;
+}
+
+.form-section input {
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+.form-section .btn {
+  background: #7997a3;
 }
 
 /* Venue */
