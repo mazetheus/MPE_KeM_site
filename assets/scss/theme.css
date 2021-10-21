@@ -12044,14 +12044,25 @@ a.theme-link:hover {
   height: 100%;
 }
 
+.pricing .title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
 .pricing .txt {
   font-size: 0.8rem;
+  color: #f5f5f5;
+}
+
+.pricing .txt h3, .pricing .txt .h3 {
+  color: #7997a3;
+  font-size: 1.2rem;
 }
 
 /* Venue */
 .venue-section {
   background: #e9f0f4;
-  color: #2b2b2b;
+  color: #7997a3;
 }
 
 .venue-section .card {
@@ -12060,7 +12071,11 @@ a.theme-link:hover {
 }
 
 .venue-section a {
-  color: #2b2b2b;
+  color: #7997a3;
+}
+
+.venue-section img {
+  width: 80%;
 }
 
 .venue-section .social-list {
@@ -12076,18 +12091,6 @@ a.theme-link:hover {
 
 .venue-section .social-list a {
   padding: 0.5rem;
-}
-
-.venue-section .grid-item {
-  border: 1px solid #fff;
-}
-
-.venue-section .grid-item .title {
-  font-size: 1.125rem;
-}
-
-.venue-section .grid-item .svg-inline--fa {
-  font-size: 1.25rem;
 }
 
 /* Sponsors */
@@ -12147,17 +12150,12 @@ a.theme-link:hover {
     padding-bottom: 3rem;
   }
   .hero-block {
-    height: auto;
-    padding-bottom: 5rem;
+    height: 90vh;
+    background: url("/assets/images/banner-1_mobile.jpg") no-repeat center center;
+    background-size: cover;
   }
-  .hero-text-block h1.hero-heading, .hero-text-block .hero-heading.h1 {
-    font-size: 2.5rem;
-  }
-  .hero-text-block .hero-meta {
-    font-size: 1.25rem;
-  }
-  .hero-text-block .hero-intro {
-    font-size: 1.25rem;
+  .section-intro {
+    font-size: 0.6rem !important;
   }
   .stats-block .number {
     font-size: 1.75rem;
