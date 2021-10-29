@@ -358,7 +358,7 @@
 	}
 }
 
-.pricing {
+.pricing, .beneficios {
 	background: $theme-bg-primary;
 	color: $theme-text-color-secondary;
 
@@ -389,6 +389,20 @@
 			font-size: 2rem;
 		}
 	}
+
+	.itens-list {
+		font-size: 1rem;
+		span{
+			font-size: 0.8rem;
+			line-height: 0.3rem;
+		}
+		img{
+			height: 2rem;
+			margin-right: 1rem;
+		}
+		
+	}
+
 }
 
 .form-section {

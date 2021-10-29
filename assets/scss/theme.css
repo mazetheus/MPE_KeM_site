@@ -12023,12 +12023,12 @@ a.theme-link:hover {
   font-size: 1.125rem;
 }
 
-.pricing {
+.pricing, .beneficios {
   background: #beccd3;
   color: #415b78;
 }
 
-.pricing .card {
+.pricing .card, .beneficios .card {
   height: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -12036,7 +12036,7 @@ a.theme-link:hover {
   background: #beccd3;
 }
 
-.pricing .card-center {
+.pricing .card-center, .beneficios .card-center {
   background-image: url("/assets/images/pilares-1.jpg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -12044,19 +12044,33 @@ a.theme-link:hover {
   height: 100%;
 }
 
-.pricing .title {
+.pricing .title, .beneficios .title {
   font-weight: bold;
   font-size: 2rem;
 }
 
-.pricing .txt {
+.pricing .txt, .beneficios .txt {
   font-size: 0.8rem;
   color: #f5f5f5;
 }
 
-.pricing .txt h3, .pricing .txt .h3 {
+.pricing .txt h3, .pricing .txt .h3, .beneficios .txt h3, .beneficios .txt .h3 {
   color: #7997a3;
   font-size: 2rem;
+}
+
+.pricing .itens-list, .beneficios .itens-list {
+  font-size: 1rem;
+}
+
+.pricing .itens-list span, .beneficios .itens-list span {
+  font-size: 0.8rem;
+  line-height: 0.3rem;
+}
+
+.pricing .itens-list img, .beneficios .itens-list img {
+  height: 2rem;
+  margin-right: 1rem;
 }
 
 .form-section {
